@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA2A2C0C1E496F8300D02BAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2A2C0B1E496F8300D02BAA /* main.m */; };
+		FA2A2C0F1E496F8300D02BAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2A2C0E1E496F8300D02BAA /* AppDelegate.m */; };
+		FA2A2C121E496F8300D02BAA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2A2C111E496F8300D02BAA /* ViewController.m */; };
+		FA2A2C151E496F8300D02BAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA2A2C131E496F8300D02BAA /* Main.storyboard */; };
+		FA2A2C171E496F8300D02BAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA2A2C161E496F8300D02BAA /* Assets.xcassets */; };
+		FA2A2C1A1E496F8300D02BAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA2A2C181E496F8300D02BAA /* LaunchScreen.storyboard */; };
+		FA2A2C251E496F8300D02BAA /* CTMediatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2A2C241E496F8300D02BAA /* CTMediatorTests.m */; };
+		FA2A2C301E496F8400D02BAA /* CTMediatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2A2C2F1E496F8400D02BAA /* CTMediatorUITests.m */; };
+		FA2A2C401E496FEC00D02BAA /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2A2C3F1E496FEC00D02BAA /* CTMediator.m */; };
+		FA2A2C501E49742500D02BAA /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2A2C4F1E49742500D02BAA /* AViewController.m */; };
+		FA2A2C541E499BC400D02BAA /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2A2C531E499BC400D02BAA /* BViewController.m */; };
+		FA2A2C591E499D3D00D02BAA /* CTMediator+ModuleAActions.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2A2C561E499D3D00D02BAA /* CTMediator+ModuleAActions.m */; };
+		FA2A2C5A1E499D3D00D02BAA /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2A2C581E499D3D00D02BAA /* Target_A.m */; };
+		FA2A2C5D1E49A38000D02BAA /* PresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2A2C5C1E49A38000D02BAA /* PresentViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA2A2C211E496F8300D02BAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA2A2BFF1E496F8300D02BAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA2A2C061E496F8300D02BAA;
+			remoteInfo = CTMediator;
+		};
+		FA2A2C2C1E496F8400D02BAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA2A2BFF1E496F8300D02BAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA2A2C061E496F8300D02BAA;
+			remoteInfo = CTMediator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA2A2C071E496F8300D02BAA /* CTMediator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CTMediator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2A2C0B1E496F8300D02BAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA2A2C0D1E496F8300D02BAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA2A2C0E1E496F8300D02BAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA2A2C101E496F8300D02BAA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FA2A2C111E496F8300D02BAA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FA2A2C141E496F8300D02BAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA2A2C161E496F8300D02BAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA2A2C191E496F8300D02BAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA2A2C1B1E496F8300D02BAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA2A2C201E496F8300D02BAA /* CTMediatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CTMediatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2A2C241E496F8300D02BAA /* CTMediatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTMediatorTests.m; sourceTree = "<group>"; };
+		FA2A2C261E496F8300D02BAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA2A2C2B1E496F8400D02BAA /* CTMediatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CTMediatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2A2C2F1E496F8400D02BAA /* CTMediatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTMediatorUITests.m; sourceTree = "<group>"; };
+		FA2A2C311E496F8400D02BAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA2A2C3E1E496FEC00D02BAA /* CTMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTMediator.h; sourceTree = "<group>"; };
+		FA2A2C3F1E496FEC00D02BAA /* CTMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTMediator.m; sourceTree = "<group>"; };
+		FA2A2C4E1E49742500D02BAA /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		FA2A2C4F1E49742500D02BAA /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
+		FA2A2C521E499BC400D02BAA /* BViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
+		FA2A2C531E499BC400D02BAA /* BViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
+		FA2A2C551E499D3D00D02BAA /* CTMediator+ModuleAActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+ModuleAActions.h"; sourceTree = "<group>"; };
+		FA2A2C561E499D3D00D02BAA /* CTMediator+ModuleAActions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+ModuleAActions.m"; sourceTree = "<group>"; };
+		FA2A2C571E499D3D00D02BAA /* Target_A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_A.h; sourceTree = "<group>"; };
+		FA2A2C581E499D3D00D02BAA /* Target_A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_A.m; sourceTree = "<group>"; };
+		FA2A2C5B1E49A38000D02BAA /* PresentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentViewController.h; sourceTree = "<group>"; };
+		FA2A2C5C1E49A38000D02BAA /* PresentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA2A2C041E496F8300D02BAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2A2C1D1E496F8300D02BAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2A2C281E496F8400D02BAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA2A2BFE1E496F8300D02BAA = {
+			isa = PBXGroup;
+			children = (
+				FA2A2C091E496F8300D02BAA /* CTMediator */,
+				FA2A2C231E496F8300D02BAA /* CTMediatorTests */,
+				FA2A2C2E1E496F8400D02BAA /* CTMediatorUITests */,
+				FA2A2C081E496F8300D02BAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA2A2C081E496F8300D02BAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA2A2C071E496F8300D02BAA /* CTMediator.app */,
+				FA2A2C201E496F8300D02BAA /* CTMediatorTests.xctest */,
+				FA2A2C2B1E496F8400D02BAA /* CTMediatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA2A2C091E496F8300D02BAA /* CTMediator */ = {
+			isa = PBXGroup;
+			children = (
+				FA2A2C4D1E49741500D02BAA /* ViewControllers */,
+				FA2A2C3D1E496FEC00D02BAA /* CTMediator */,
+				FA2A2C0D1E496F8300D02BAA /* AppDelegate.h */,
+				FA2A2C0E1E496F8300D02BAA /* AppDelegate.m */,
+				FA2A2C101E496F8300D02BAA /* ViewController.h */,
+				FA2A2C111E496F8300D02BAA /* ViewController.m */,
+				FA2A2C131E496F8300D02BAA /* Main.storyboard */,
+				FA2A2C161E496F8300D02BAA /* Assets.xcassets */,
+				FA2A2C181E496F8300D02BAA /* LaunchScreen.storyboard */,
+				FA2A2C1B1E496F8300D02BAA /* Info.plist */,
+				FA2A2C0A1E496F8300D02BAA /* Supporting Files */,
+			);
+			path = CTMediator;
+			sourceTree = "<group>";
+		};
+		FA2A2C0A1E496F8300D02BAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA2A2C0B1E496F8300D02BAA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA2A2C231E496F8300D02BAA /* CTMediatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA2A2C241E496F8300D02BAA /* CTMediatorTests.m */,
+				FA2A2C261E496F8300D02BAA /* Info.plist */,
+			);
+			path = CTMediatorTests;
+			sourceTree = "<group>";
+		};
+		FA2A2C2E1E496F8400D02BAA /* CTMediatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA2A2C2F1E496F8400D02BAA /* CTMediatorUITests.m */,
+				FA2A2C311E496F8400D02BAA /* Info.plist */,
+			);
+			path = CTMediatorUITests;
+			sourceTree = "<group>";
+		};
+		FA2A2C3D1E496FEC00D02BAA /* CTMediator */ = {
+			isa = PBXGroup;
+			children = (
+				FA2A2C411E49716000D02BAA /* Categories */,
+				FA2A2C3E1E496FEC00D02BAA /* CTMediator.h */,
+				FA2A2C3F1E496FEC00D02BAA /* CTMediator.m */,
+			);
+			path = CTMediator;
+			sourceTree = "<group>";
+		};
+		FA2A2C411E49716000D02BAA /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				FA2A2C551E499D3D00D02BAA /* CTMediator+ModuleAActions.h */,
+				FA2A2C561E499D3D00D02BAA /* CTMediator+ModuleAActions.m */,
+				FA2A2C571E499D3D00D02BAA /* Target_A.h */,
+				FA2A2C581E499D3D00D02BAA /* Target_A.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		FA2A2C4D1E49741500D02BAA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FA2A2C4E1E49742500D02BAA /* AViewController.h */,
+				FA2A2C4F1E49742500D02BAA /* AViewController.m */,
+				FA2A2C521E499BC400D02BAA /* BViewController.h */,
+				FA2A2C531E499BC400D02BAA /* BViewController.m */,
+				FA2A2C5B1E49A38000D02BAA /* PresentViewController.h */,
+				FA2A2C5C1E49A38000D02BAA /* PresentViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA2A2C061E496F8300D02BAA /* CTMediator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA2A2C341E496F8400D02BAA /* Build configuration list for PBXNativeTarget "CTMediator" */;
+			buildPhases = (
+				FA2A2C031E496F8300D02BAA /* Sources */,
+				FA2A2C041E496F8300D02BAA /* Frameworks */,
+				FA2A2C051E496F8300D02BAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CTMediator;
+			productName = CTMediator;
+			productReference = FA2A2C071E496F8300D02BAA /* CTMediator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA2A2C1F1E496F8300D02BAA /* CTMediatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA2A2C371E496F8400D02BAA /* Build configuration list for PBXNativeTarget "CTMediatorTests" */;
+			buildPhases = (
+				FA2A2C1C1E496F8300D02BAA /* Sources */,
+				FA2A2C1D1E496F8300D02BAA /* Frameworks */,
+				FA2A2C1E1E496F8300D02BAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA2A2C221E496F8300D02BAA /* PBXTargetDependency */,
+			);
+			name = CTMediatorTests;
+			productName = CTMediatorTests;
+			productReference = FA2A2C201E496F8300D02BAA /* CTMediatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA2A2C2A1E496F8400D02BAA /* CTMediatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA2A2C3A1E496F8400D02BAA /* Build configuration list for PBXNativeTarget "CTMediatorUITests" */;
+			buildPhases = (
+				FA2A2C271E496F8400D02BAA /* Sources */,
+				FA2A2C281E496F8400D02BAA /* Frameworks */,
+				FA2A2C291E496F8400D02BAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA2A2C2D1E496F8400D02BAA /* PBXTargetDependency */,
+			);
+			name = CTMediatorUITests;
+			productName = CTMediatorUITests;
+			productReference = FA2A2C2B1E496F8400D02BAA /* CTMediatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA2A2BFF1E496F8300D02BAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Alex;
+				TargetAttributes = {
+					FA2A2C061E496F8300D02BAA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					FA2A2C1F1E496F8300D02BAA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA2A2C061E496F8300D02BAA;
+					};
+					FA2A2C2A1E496F8400D02BAA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA2A2C061E496F8300D02BAA;
+					};
+				};
+			};
+			buildConfigurationList = FA2A2C021E496F8300D02BAA /* Build configuration list for PBXProject "CTMediator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA2A2BFE1E496F8300D02BAA;
+			productRefGroup = FA2A2C081E496F8300D02BAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA2A2C061E496F8300D02BAA /* CTMediator */,
+				FA2A2C1F1E496F8300D02BAA /* CTMediatorTests */,
+				FA2A2C2A1E496F8400D02BAA /* CTMediatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA2A2C051E496F8300D02BAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2A2C1A1E496F8300D02BAA /* LaunchScreen.storyboard in Resources */,
+				FA2A2C171E496F8300D02BAA /* Assets.xcassets in Resources */,
+				FA2A2C151E496F8300D02BAA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2A2C1E1E496F8300D02BAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2A2C291E496F8400D02BAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA2A2C031E496F8300D02BAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2A2C121E496F8300D02BAA /* ViewController.m in Sources */,
+				FA2A2C591E499D3D00D02BAA /* CTMediator+ModuleAActions.m in Sources */,
+				FA2A2C0F1E496F8300D02BAA /* AppDelegate.m in Sources */,
+				FA2A2C0C1E496F8300D02BAA /* main.m in Sources */,
+				FA2A2C5A1E499D3D00D02BAA /* Target_A.m in Sources */,
+				FA2A2C541E499BC400D02BAA /* BViewController.m in Sources */,
+				FA2A2C501E49742500D02BAA /* AViewController.m in Sources */,
+				FA2A2C401E496FEC00D02BAA /* CTMediator.m in Sources */,
+				FA2A2C5D1E49A38000D02BAA /* PresentViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2A2C1C1E496F8300D02BAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2A2C251E496F8300D02BAA /* CTMediatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2A2C271E496F8400D02BAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2A2C301E496F8400D02BAA /* CTMediatorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA2A2C221E496F8300D02BAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA2A2C061E496F8300D02BAA /* CTMediator */;
+			targetProxy = FA2A2C211E496F8300D02BAA /* PBXContainerItemProxy */;
+		};
+		FA2A2C2D1E496F8400D02BAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA2A2C061E496F8300D02BAA /* CTMediator */;
+			targetProxy = FA2A2C2C1E496F8400D02BAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA2A2C131E496F8300D02BAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA2A2C141E496F8300D02BAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA2A2C181E496F8300D02BAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA2A2C191E496F8300D02BAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA2A2C321E496F8400D02BAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FA2A2C331E496F8400D02BAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA2A2C351E496F8400D02BAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CTMediator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alex.CTMediator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA2A2C361E496F8400D02BAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CTMediator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alex.CTMediator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FA2A2C381E496F8400D02BAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CTMediatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alex.CTMediatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CTMediator.app/CTMediator";
+			};
+			name = Debug;
+		};
+		FA2A2C391E496F8400D02BAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CTMediatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alex.CTMediatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CTMediator.app/CTMediator";
+			};
+			name = Release;
+		};
+		FA2A2C3B1E496F8400D02BAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CTMediatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alex.CTMediatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CTMediator;
+			};
+			name = Debug;
+		};
+		FA2A2C3C1E496F8400D02BAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CTMediatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alex.CTMediatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CTMediator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA2A2C021E496F8300D02BAA /* Build configuration list for PBXProject "CTMediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2A2C321E496F8400D02BAA /* Debug */,
+				FA2A2C331E496F8400D02BAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA2A2C341E496F8400D02BAA /* Build configuration list for PBXNativeTarget "CTMediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2A2C351E496F8400D02BAA /* Debug */,
+				FA2A2C361E496F8400D02BAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA2A2C371E496F8400D02BAA /* Build configuration list for PBXNativeTarget "CTMediatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2A2C381E496F8400D02BAA /* Debug */,
+				FA2A2C391E496F8400D02BAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA2A2C3A1E496F8400D02BAA /* Build configuration list for PBXNativeTarget "CTMediatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2A2C3B1E496F8400D02BAA /* Debug */,
+				FA2A2C3C1E496F8400D02BAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA2A2BFF1E496F8300D02BAA /* Project object */;
+}
